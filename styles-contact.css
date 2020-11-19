@@ -1,4 +1,4 @@
-/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+/*This is my 201 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
 
 
 
@@ -60,78 +60,69 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
+  background: url(images/plant_shadow.jpg) 
       center center fixed no-repeat;
     background-size: cover;
-		
+	font-family: "helvetica", sans-serif;
+    
 }
 
 .center {
-    width: 800px;
-	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    width: 80%; /* added this to make div responsive */
+    max-width: 800px;
+	padding: 0%;
+    margin: 10px auto;
 	text-align: center;
-	border: 4px dashed white;
+	/* removed -- border: 4px dashed white;
+    */
 }
-  
+
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin: 80px 0px 0px 0px;
 	text-align: center;
 }
 
 h1 {
-    font-family: garamond, serif;
-    font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
-}
-
-h2 {
-    font-family: orbe, serif;
-    font-weight: 400;
-    font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
-}
-
-p {
-	font-family: garamond, serif;
-	font-size: 1.2em;
-    line-height: 1.6;
+    font-family: didot, serif;
+    font-size: 1.5em;
+    margin: 0px auto 40px auto;
     color: #fff;
 }
 
 nav{
-    font-family: garamond;
+    font-family: helvetica;
     font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
     text-align: center;
     margin-top: 2em;   
     }
 
 nav li{
-    display: inline;    
-    }
- 
+    display: inline;
+}
+
 nav a {
     display: inline-block;
     padding: 10px;    
     }
 
 a{
-    color:#444;
-    text-decoration: none;
-    font-weight: bold;
-    }
+     color:#783a3a;
+  background:#f9f3ef;
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+
+}
+
 a:hover{
-    color: black;
-    background: pink;
-    }
+     border:none;
+  background:#783a3a;
+  color:#fff;
+}
+
+
+
