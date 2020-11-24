@@ -86,7 +86,7 @@ h1 {
     font-family: didot, serif;
     font-size: 1.5em;
     margin: 0px auto 40px auto;
-    color: #fff;
+    color: #f9f3ef;
 }
 
 nav{
@@ -108,7 +108,7 @@ nav a {
     }
 
 a{
-     color:#47476b;
+     color:#7A6670;
   background:#f9f3ef;
   padding:10px 20px;
   font-size:12px;
@@ -120,8 +120,8 @@ a{
 
 a:hover{
      border:none;
-  background:#47476b;
-  color:#fff;
+  background:#7A6670;
+  color:#f9f3ef;
 }
 
 
