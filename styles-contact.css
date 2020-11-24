@@ -108,7 +108,7 @@ nav a {
     }
 
 a{
-     color:#7A6670;
+     color:#835960;
   background:#f9f3ef;
   padding:10px 20px;
   font-size:12px;
@@ -120,7 +120,7 @@ a{
 
 a:hover{
      border:none;
-  background:#7A6670;
+  background:#835960;
   color:#f9f3ef;
 }
 
